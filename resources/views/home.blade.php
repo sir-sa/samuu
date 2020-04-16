@@ -52,12 +52,14 @@
               </a>
       </li>
       @endcan
+      @can('manage-user')
       <li class="nav-item">
         <a href="{{url('/managers')}}" class="nav-link text-dark font-italic">
                   <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i>
                   Managers
               </a>
       </li>
+      @endcan
       <li class="nav-item">
         <a href="#" class="nav-link text-dark font-italic">
                   <i class="fa fa-pie-chart mr-3 text-primary fa-fw"></i>
